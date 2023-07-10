@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
 
   root "divisas#scraping"
+  get "security_policy", to: 'divisas#policy'
+
 end
