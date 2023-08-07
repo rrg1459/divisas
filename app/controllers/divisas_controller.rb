@@ -2,8 +2,8 @@ class DivisasController < ApplicationController
 
   include ActionController::MimeResponds
 
-  require 'open-uri'
-  require 'nokogiri'
+  # require 'open-uri'
+  # require 'nokogiri'
 
   def scraping
     # sleep 1
