@@ -7,7 +7,7 @@ services:
   - type: web
     # name: mysite
     name: rails
-    # plan: free
+    plan: free
     # env: ruby
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
